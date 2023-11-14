@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: chartreuse;
+}
+#board{
+    height: 540px;
+    width: 630px;
+    background-color: blueviolet;
+    border: 10px solid violet;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile{
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid violet;
+}
+.red-piece{
+    background-color: red;
+}
+.yellow-piece{
+    background-color: yellow;
+}
